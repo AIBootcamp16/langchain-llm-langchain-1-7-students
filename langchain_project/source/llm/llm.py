@@ -1,8 +1,8 @@
 from langchain_upstage import ChatUpstage
-from config.settings import UPSTAGE_MODEL, TEMPERATURE
+from config.settings import TEMPERATURE
 
 def get_llm():
     return ChatUpstage(
-        model=UPSTAGE_MODEL,
+        model="solar-1-mini-chat",
         temperature=TEMPERATURE,
     )

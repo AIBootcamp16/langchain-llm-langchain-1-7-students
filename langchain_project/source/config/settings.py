@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ===== LLM =====
-UPSTAGE_MODEL = "solar-1-mini-chat"  # 예시
 TEMPERATURE = 0.0
 
 # ===== Embedding (적재 시 사용한 것과 동일해야 함) =====
